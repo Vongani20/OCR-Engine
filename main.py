@@ -34,7 +34,7 @@ class Config:
     OUTPUT_REPORT_DIR = BASE_DIR / "output" / "combined_report"
     LOG_DIR = BASE_DIR / "logs"
     
-    # Gemini settings - USE ENVIRONMENT VARIABLE (NEVER hardcode API keys!)
+    # Gemini settings 
     GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyA7f18YPugfof9ILiMqRkmYApqMIqaYh4k")
     
     # CORRECT MODEL NAMES for the API
