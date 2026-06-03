@@ -1,0 +1,2 @@
+﻿source_file,page,invoice_number,status,issue_date,due_date,payment_date,vendor_name,vendor_city,customer_name,customer_city,subtotal,tax_amount,grand_total,amount_paid,balance_due,currency
+Activity Statement for GRIT SERVICES LIMITED 01May2026-02Jun2026,1,INV-44582,Overdue,2026-05-20,2026-06-01,,iLead Online (Pty) Ltd,Pretoria,GRIT SERVICES LIMITED,GRAND BAIE,28935.0,0,28935.0,0.0,28935.0,ZAR

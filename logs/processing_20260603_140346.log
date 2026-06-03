@@ -1,0 +1,36 @@
+2026-06-03 14:03:47,250 - INFO - ======================================================================
+2026-06-03 14:03:47,251 - INFO - [START] INVOICE PROCESSING
+2026-06-03 14:03:47,252 - INFO - ======================================================================
+2026-06-03 14:03:47,252 - INFO - [FOLDER] Input directory: c:\Users\vmaluleke\Documents\OCR-Engine\input\invoices
+2026-06-03 14:03:47,252 - INFO - [AI] Model: gemini-1.5-flash
+2026-06-03 14:03:47,253 - INFO - [STATS] Already processed: 0 files
+2026-06-03 14:03:47,255 - INFO - [FILE] Found 3 new invoice(s) to process
+2026-06-03 14:03:47,260 - INFO - [FILE] Converting PDF: Statement - Grit Management Services South Africa (Pty) Ltd - Acc+.pdf
+2026-06-03 14:03:47,260 - INFO - [FILE] Converting PDF: Tabela de cambios 02062026_15h00.pdf
+2026-06-03 14:03:47,340 - ERROR - Failed to convert PDF: Unable to get page count. Is poppler installed and in PATH?
+2026-06-03 14:03:47,340 - ERROR -    Please install poppler:
+2026-06-03 14:03:47,340 - ERROR -    Windows: Download from https://github.com/oschwartz10612/poppler-windows/releases/
+2026-06-03 14:03:47,341 - ERROR -    Then add bin folder to PATH or set POPPLER_PATH
+2026-06-03 14:03:47,341 - INFO - [FILE] Converting PDF: VDE Tax Invoice - GSL.pdf
+2026-06-03 14:03:47,346 - ERROR - Failed to convert PDF: Unable to get page count. Is poppler installed and in PATH?
+2026-06-03 14:03:47,347 - ERROR -    Please install poppler:
+2026-06-03 14:03:47,347 - ERROR -    Windows: Download from https://github.com/oschwartz10612/poppler-windows/releases/
+2026-06-03 14:03:47,347 - ERROR -    Then add bin folder to PATH or set POPPLER_PATH
+2026-06-03 14:03:47,352 - ERROR - Failed to convert PDF: Unable to get page count. Is poppler installed and in PATH?
+2026-06-03 14:03:47,353 - ERROR -    Please install poppler:
+2026-06-03 14:03:47,353 - ERROR -    Windows: Download from https://github.com/oschwartz10612/poppler-windows/releases/
+2026-06-03 14:03:47,353 - ERROR -    Then add bin folder to PATH or set POPPLER_PATH
+2026-06-03 14:03:47,355 - INFO - [SAVED] Combined report: c:\Users\vmaluleke\Documents\OCR-Engine\output\combined_report\all_invoices.json
+2026-06-03 14:03:47,361 - INFO - [SAVED] CSV summary: c:\Users\vmaluleke\Documents\OCR-Engine\output\combined_report\summary.csv
+2026-06-03 14:03:47,361 - INFO - 
+======================================================================
+2026-06-03 14:03:47,361 - INFO - [METRICS] PROCESSING STATISTICS
+2026-06-03 14:03:47,362 - INFO - ======================================================================
+2026-06-03 14:03:47,362 - INFO - [TIME] Time elapsed: 0.11 seconds
+2026-06-03 14:03:47,362 - INFO - [COUNT] Total files found: 3
+2026-06-03 14:03:47,362 - INFO - [OK] Successfully processed: 0
+2026-06-03 14:03:47,362 - INFO - [ERROR] Failed: 0
+2026-06-03 14:03:47,362 - INFO - ======================================================================
+2026-06-03 14:03:47,363 - INFO - ======================================================================
+2026-06-03 14:03:47,363 - INFO - [DONE] PROCESSING COMPLETE
+2026-06-03 14:03:47,363 - INFO - ======================================================================

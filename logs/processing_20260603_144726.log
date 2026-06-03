@@ -1,0 +1,48 @@
+2026-06-03 14:47:27,091 - INFO - ==================================================
+2026-06-03 14:47:27,092 - INFO - Testing available models...
+2026-06-03 14:47:27,092 - INFO - ==================================================
+2026-06-03 14:47:27,092 - INFO - Testing: gemini-3-flash
+2026-06-03 14:47:27,093 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:47:27,707 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:47:27,709 - WARNING - Model gemini-3-flash not found
+2026-06-03 14:47:27,711 - INFO - Testing: gemini-2.0-flash
+2026-06-03 14:47:27,712 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:47:28,531 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-03 14:47:28,533 - WARNING - Model gemini-2.0-flash error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 45.121023974s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}
+2026-06-03 14:47:28,533 - INFO - Testing: gemini-1.5-flash
+2026-06-03 14:47:28,534 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:47:28,795 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:47:28,796 - WARNING - Model gemini-1.5-flash not found
+2026-06-03 14:47:28,796 - INFO - Testing: gemini-3.5-flash
+2026-06-03 14:47:28,797 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:47:30,295 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-03 14:47:30,297 - INFO - ✓ Model gemini-3.5-flash is available
+2026-06-03 14:47:30,298 - INFO - ✓ USING MODEL: gemini-3.5-flash
+2026-06-03 14:47:30,298 - INFO - ======================================================================
+2026-06-03 14:47:30,299 - INFO - STARTING INVOICE PROCESSING
+2026-06-03 14:47:30,299 - INFO - ======================================================================
+2026-06-03 14:47:30,300 - INFO - Input: c:\Users\vmaluleke\Documents\OCR-Engine\input\invoices
+2026-06-03 14:47:30,300 - INFO - Model: gemini-3.5-flash
+2026-06-03 14:47:30,302 - INFO - Already processed: 0 files
+2026-06-03 14:47:30,306 - INFO - Found 1 new file(s)
+2026-06-03 14:47:30,309 - INFO - Processing PDF: Activity Statement for GRIT SERVICES LIMITED 01May2026-02Jun2026.pdf
+2026-06-03 14:47:30,546 - INFO -   Converted 1 pages
+2026-06-03 14:47:30,548 - INFO -   Page 1/1
+2026-06-03 14:47:30,579 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:47:45,984 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-03 14:47:47,999 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:47:59,591 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-03 14:47:59,658 - INFO - Moved: Activity Statement for GRIT SERVICES LIMITED 01May2026-02Jun2026.pdf
+2026-06-03 14:47:59,660 - INFO - Saved: Activity_Statement_for_GRIT_SERVICES_LIMITED_01May2026-02Jun2026_p1.json
+2026-06-03 14:47:59,662 - INFO - Combined report: c:\Users\vmaluleke\Documents\OCR-Engine\output\combined_report\all_invoices.json
+2026-06-03 14:47:59,673 - INFO - CSV summary: c:\Users\vmaluleke\Documents\OCR-Engine\output\combined_report\summary.csv
+2026-06-03 14:47:59,673 - INFO - 
+Time: 29.38s
+2026-06-03 14:47:59,674 - INFO - Files: 1
+2026-06-03 14:47:59,674 - INFO - Success: 1
+2026-06-03 14:47:59,674 - INFO - Failed: 0
+2026-06-03 14:47:59,675 - INFO - Total value: $28,935.00
+2026-06-03 14:47:59,675 - INFO - Invoices: 1
+2026-06-03 14:47:59,675 - INFO - ======================================================================
+2026-06-03 14:47:59,676 - INFO - PROCESSING COMPLETE
+2026-06-03 14:47:59,676 - INFO - ======================================================================

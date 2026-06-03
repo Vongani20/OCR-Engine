@@ -1,0 +1,35 @@
+2026-06-03 14:19:28,874 - INFO - ======================================================================
+2026-06-03 14:19:28,876 - INFO - STARTING INVOICE PROCESSING
+2026-06-03 14:19:28,876 - INFO - ======================================================================
+2026-06-03 14:19:28,876 - INFO - Input: c:\Users\vmaluleke\Documents\OCR-Engine\input\invoices
+2026-06-03 14:19:28,877 - INFO - Model: gemini-1.5-flash
+2026-06-03 14:19:28,879 - INFO - Already processed: 0 files
+2026-06-03 14:19:28,891 - INFO - Found 1 new file(s)
+2026-06-03 14:19:28,895 - INFO - Processing PDF: VDE Tax Invoice - GSL.pdf
+2026-06-03 14:19:29,220 - INFO -   Converted 2 pages from PDF
+2026-06-03 14:19:29,221 - INFO -   Page 1/2
+2026-06-03 14:19:29,253 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:19:30,730 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:19:32,750 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:19:33,833 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:19:35,850 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:19:36,903 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:19:36,904 - ERROR -   Failed page 1: RetryError[<Future at 0x24734f283b0 state=finished raised ClientError>]
+2026-06-03 14:19:36,905 - INFO -   Page 2/2
+2026-06-03 14:19:36,931 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:19:37,909 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:19:39,925 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:19:40,889 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:19:42,904 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:19:43,875 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:19:43,876 - ERROR -   Failed page 2: RetryError[<Future at 0x24734f398b0 state=finished raised ClientError>]
+2026-06-03 14:19:43,878 - INFO - Combined report: c:\Users\vmaluleke\Documents\OCR-Engine\output\combined_report\all_invoices.json
+2026-06-03 14:19:43,884 - INFO - CSV summary: c:\Users\vmaluleke\Documents\OCR-Engine\output\combined_report\summary.csv
+2026-06-03 14:19:43,884 - INFO - 
+Time: 15.01s
+2026-06-03 14:19:43,884 - INFO - Files: 1
+2026-06-03 14:19:43,884 - INFO - Success: 0
+2026-06-03 14:19:43,885 - INFO - Failed: 2
+2026-06-03 14:19:43,886 - INFO - ======================================================================
+2026-06-03 14:19:43,886 - INFO - PROCESSING COMPLETE
+2026-06-03 14:19:43,886 - INFO - ======================================================================

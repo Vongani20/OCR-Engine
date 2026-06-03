@@ -1,0 +1,2 @@
+2026-06-03 13:57:44,197 - ERROR -    Set it using: set GEMINI_API_KEY=your_key_here (Windows)
+2026-06-03 13:57:44,198 - ERROR -    or: export GEMINI_API_KEY='your_key_here' (Linux/Mac)

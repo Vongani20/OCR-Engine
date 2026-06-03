@@ -1,0 +1,5 @@
+2026-06-03 13:58:51,415 - INFO - ======================================================================
+2026-06-03 13:58:51,427 - INFO - ======================================================================
+2026-06-03 13:58:51,545 - ERROR - Failed to convert PDF: Unable to get page count. Is poppler installed and in PATH?
+2026-06-03 13:58:51,549 - ERROR - Failed to convert PDF: Unable to get page count. Is poppler installed and in PATH?
+2026-06-03 13:58:51,554 - ERROR - Failed to convert PDF: Unable to get page count. Is poppler installed and in PATH?

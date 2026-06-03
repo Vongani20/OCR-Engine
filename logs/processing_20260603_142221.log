@@ -1,0 +1,18 @@
+2026-06-03 14:22:22,603 - INFO - Testing model: gemini-2.0-flash-exp
+2026-06-03 14:22:22,604 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:22:23,295 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:22:23,301 - WARNING - Model gemini-2.0-flash-exp not available: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-06-03 14:22:23,303 - INFO - Testing model: gemini-1.5-flash-002
+2026-06-03 14:22:23,303 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:22:24,151 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:22:24,152 - WARNING - Model gemini-1.5-flash-002 not available: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-002 is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-06-03 14:22:24,153 - INFO - Testing model: gemini-1.5-pro-002
+2026-06-03 14:22:24,153 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:22:24,416 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-002:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:22:24,417 - WARNING - Model gemini-1.5-pro-002 not available: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-pro-002 is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-06-03 14:22:24,418 - INFO - Testing model: gemini-1.0-pro
+2026-06-03 14:22:24,418 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-03 14:22:25,267 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.0-pro:generateContent "HTTP/1.1 404 Not Found"
+2026-06-03 14:22:25,269 - WARNING - Model gemini-1.0-pro not available: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-06-03 14:22:25,269 - ERROR - No working model found! Please check your API key and internet connection.
+2026-06-03 14:22:25,269 - ERROR - Available models: https://ai.google.dev/gemini-api/docs/models

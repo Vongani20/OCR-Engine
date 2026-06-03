@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "invoice_number": "INV-44582",
+    "status": "Overdue",
+    "issue_date": "2026-05-20",
+    "due_date": "2026-06-01",
+    "payment_date": null,
+    "currency": "ZAR",
+    "vendor": {
+      "company_name": "iLead Online (Pty) Ltd",
+      "address": "723 Rudolf Crescent, The Ridge Estate, Tyger Valley",
+      "city": "Pretoria",
+      "state": null,
+      "postal_code": "0084",
+      "country": "South Africa",
+      "email": null,
+      "phone": null
+    },
+    "customer": {
+      "company_name": "GRIT SERVICES LIMITED",
+      "contact_name": null,
+      "address": "Unity Building, The Precinct, M2 Junction, B 11, Fond Du Sac Road",
+      "city": "GRAND BAIE",
+      "state": null,
+      "postal_code": null,
+      "country": "MAURITIUS",
+      "email": null
+    },
+    "line_items": [
+      {
+        "item_id": null,
+        "description": "Opening Balance",
+        "quantity": 1,
+        "unit_price": 19290.0,
+        "discount": 0,
+        "taxable": false,
+        "total_price": 19290.0
+      },
+      {
+        "item_id": "INV-44582",
+        "description": "Invoice # INV-44582",
+        "quantity": 1,
+        "unit_price": 9645.0,
+        "discount": 0,
+        "taxable": false,
+        "total_price": 9645.0
+      }
+    ],
+    "totals": {
+      "subtotal": 28935.0,
+      "tax_rate_percentage": 0,
+      "tax_amount": 0,
+      "discount_total": 0,
+      "grand_total": 28935.0,
+      "amount_paid": 0.0,
+      "balance_due": 28935.0
+    },
+    "payment_details": {
+      "method": null,
+      "transaction_reference": "B-EN_GRITS-246",
+      "terms": null
+    },
+    "notes": "Statement Date: 02 Jun 2026. Vendor VAT Number: 4230261663. Customer VAT Number: 27210632.",
+    "metadata": {
+      "source_file": "Activity Statement for GRIT SERVICES LIMITED 01May2026-02Jun2026",
+      "page_number": 1,
+      "total_pages": 1,
+      "file_type": "pdf",
+      "processed_at": "2026-06-03T14:47:59.653539",
+      "file_hash": "2109a1b59d30f0a36a379bc009956d78"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+2026-06-03 14:43:27,770 - ERROR - ERROR: GEMINI_API_KEY not set!
+2026-06-03 14:43:27,771 - ERROR -   Set it using: set GEMINI_API_KEY=your_key_here (Windows)
+2026-06-03 14:43:27,771 - ERROR -   or: export GEMINI_API_KEY='your_key_here' (Linux/Mac)
+2026-06-03 14:43:27,771 - ERROR -   NEVER hardcode API keys in your script!
